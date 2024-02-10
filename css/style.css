@@ -5,3 +5,21 @@
 h2{
     color: blue;
 }
+/*selector a partir de una class*/
+.texto-verde{
+    color: green;
+}
+
+footer{
+    color: pink;
+}
+/*selector a partir de un id*/
+#parrafo-rosa{
+    color: violet;
+    font-size: 20px;
+}
+/*selector a partir de etiquetas combinadas, se le está diciendo que a la todo lo que 
+tenga etiqueta p en el header le coloque el siguiente estilo*/
+header p{
+    color: aqua;
+}
